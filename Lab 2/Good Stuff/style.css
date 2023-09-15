@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .wrap {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .header {
+    margin-bottom: 20px 100px;
+    text-align: center;
+    }
+
+  .content {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(111, 111, 230);
+    float: left;
+  }
+
+  .footer {
+    height: 50px;
+    margin-top: 15px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+  }
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(217, 93, 114);
+  }
+
+  .navbar li {
+    float: auto;
+  }
+
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover {
+    background-color: #111;
+  }
+
+  .gutter {
+    padding: 5px;
+  }
+  img {
+    width: 500px;
+    height: 600px;
+  }

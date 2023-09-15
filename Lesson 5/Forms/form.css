@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.col-25 {
+  float:left;
+  width: 25%;
+  margin-top: 7px;
+}
+
+.col-75 {
+  float:left;
+  width: 75%;
+  margin-top: 7px;  
+}
+
+.row::after {
+  content: "";
+  dispay: table;
+  clear: both;
+}
+
+input[type="text"],
+select, 
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+input [type="submit"] {
+  background-color: azure;
+  color: green;
+  padding: 15 px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.myMessage {
+    height: 200px;
+}
+
+label {
+    padding: 12 px 12px 12px 0px;
+    display: inline-block;
+}
+
+
+

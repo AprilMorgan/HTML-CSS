@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css" />  
+  </head>
+  <body>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-25"><label for="firstName">First Name</label></div>
+                <div class="col-75">
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstname"
+                      placeholder="Your name..."
+                    />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25"><label for="lastName">Last Name</label></div>
+                <div class="col-75">
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastname"
+                      placeholder="Your last name..."
+                    />
+                </div>
+            </div>
+            <div class="col-25"><label for="country">Country</label></div>
+                <div class="col-75">
+                    <select name="country" id="country">
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                    </select>
+                </div>
+            <div class="row">
+                <div class="col-25"><label for="message">Message</label></div>
+                <div class="col-75">
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="Write your message..."
+                      class="myMessage"
+                      ></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit" id="mySubmit" />
+            </div>           
+        </form>
+    </div>
+    <script>
+      document.getElementById("mySubmit").addEventListener(click", myPopup);
+      function myPopup() {
+        alert ("You Submitted the Form!");
+        return false;
+      }
+    </script>
+  </body>
+</html>

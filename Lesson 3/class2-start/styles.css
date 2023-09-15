@@ -1,0 +1,145 @@
+/* TASK: Populate each style listed below to make the page look good */
+/* --------------- Einstellung für alle Elemente ---------------*/
+html * {
+
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-grandient(direction);
+
+}
+
+.hero-container {
+    background-image: url("images/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #777;
+    height: 500px;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+}
+
+.main-content {
+    margin: 20 px 30 px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 1 px #777777;
+}
+
+.title1- {
+
+}
+
+h1 {
+    font-size: ;
+}
+
+h2{
+    font-size: 30px;
+}
+/* --------------- page ---------------*/
+#page {
+}
+/* --------------- Header ---------------*/
+#cheader {
+}
+#logo {
+    float: left;
+}
+#hm {
+}
+#hm ul {
+}
+#hm ul li {
+}
+#hm ul li a {
+}
+#hm ul li a.active {
+}
+#slogan {
+    text-align: center;
+}
+#slogan h1 {
+}
+#search {
+}
+#search input {
+}
+/* --------------- content ---------------*/
+#ccontent {
+}
+#leftmenue {
+}
+#leftmenue h2 {
+}
+#leftmenue ul {
+}
+#leftmenue ul li {
+}
+#leftmenue ul li a {
+}
+#leftmenue ul li a:hover {
+}
+#leftmenue ul li a:hover.active,
+#leftmenue ul li a.active {
+}
+#hpv24 {
+}
+#hpv24 a {
+}
+#content {
+}
+#content h1 {
+}
+#content h2 {
+}
+#content p {
+}
+#content a {
+}
+#content a:hover {
+}
+#content #links {
+}
+#content #ressourcen {
+}
+#content #links ul,
+#content #ressourcen ul {
+}
+#content #links ul li,
+#content #ressourcen ul li {
+}
+#content #links ul li a,
+#content #ressourcen ul li a {
+}
+#content #links ul li a:hover,
+#content #ressourcen ul li a:hover {
+}
+/* --------------- footer ---------------*/
+#footer {
+}
+#copyright {
+}
+#fmenue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font: #0000;
+}
+#fmenue ul {
+}
+#fmenue ul li {
+}
+#fmenue ul li a {
+
+}
